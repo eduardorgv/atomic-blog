@@ -1,9 +1,9 @@
 import { List } from "./List"
 
-export const Posts = ({ posts }) => {
+export const Posts = () => {
   return (
     <section>
-      <List posts={posts} />
+      <List />
     </section>
   )
 }
